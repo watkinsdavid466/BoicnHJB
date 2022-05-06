@@ -4,7 +4,6 @@
 'scope: curriculum':
   - curriculum/challenges/**/*
 
-'platform: client':
   - client/**/*
 
 'platform: api':
@@ -20,6 +19,5 @@
   - any: ['curriculum/challenges/**/*', '!curriculum/challenges/english/**/*']
   - docs/i18n/**/*
   - client/i18n/**/*
-  - config/crowdin/**/*
   - config/i18n/**/*
   - tools/crowdin/**/*
